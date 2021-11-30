@@ -1,6 +1,8 @@
 # Simple-Calculator
 Simple Calculator using HTML, CSS, JavaScript. Neumorphism UI is used.
 
+![Screenshot](https://user-images.githubusercontent.com/63664995/144090996-f28fe35e-229e-49ae-8835-354dbea74ac1.PNG)
+
 # Get Started
 Clone the Repository
     https://github.com/alenscaria/Simple-Calculator.git
