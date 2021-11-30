@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="calculator">
+            <div class="screen">
+                <input id="output" type="text">
+            </div>
+            <div class="calc-btn">
+                <button  onclick="disp(7)" class="btnNum">7</button>
+                <button  onclick="disp(8)"  class="btnNum">8</button>
+                <button  onclick="disp(9)"  class="btnNum">9</button>
+                <button  onclick="disp('/')"  class="btnOper">/</button>
+            </div>
+
+            <div class="calc-btn">
+                <button  onclick="disp(4)"  class="btnNum">4</button>
+                <button  onclick="disp(5)"  class="btnNum">5</button>
+                <button   onclick="disp(6)" class="btnNum">6</button>
+                <button   onclick="disp('*')" class="btnOper">X</button>
+            </div>
+
+            <div class="calc-btn">
+                <button   onclick="disp(1)" class="btnNum">1</button>
+                <button   onclick="disp(2)" class="btnNum">2</button>
+                <button   onclick="disp(3)" class="btnNum">3</button>
+                <button   onclick="disp('-')" class="btnOper">-</button>
+            </div>
+
+            <div class="calc-btn">
+                <button   onclick="disp('.')" class="btnOper"><strong>.</strong></button>
+                <button   onclick="disp(0)" class="btnNum">0</button>
+                <button   onclick="equalClick()" class="btnOper">=</button>
+                <button   onclick="disp('+')" class="btnOper">+</button>
+            </div>
+            <div class="calc-btn">
+                <button onclick="cls()" class="btnOper">Clear</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
