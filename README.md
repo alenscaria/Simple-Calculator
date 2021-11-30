@@ -4,8 +4,8 @@ Simple Calculator using HTML, CSS, JavaScript. Neumorphism UI is used.
 # Get Started
 Clone the Repository
     https://github.com/alenscaria/Simple-Calculator.git
-Analyze and Study the code
-Improve/Change the code
+Analyze and Study the code, 
+Improve/Change the code, 
 Play around with the project
 
 # Contribution 
